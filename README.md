@@ -4,10 +4,10 @@
 08 August 2023
 
 ### Project Title
-Bikshare
+Bikshare Analysis
 
 ### Description
-Anaylyse bikeshare data from differenct cities
+Anaylyse bikeshare data from differenct cities in USA
 
 ### Files used
 Data files for Newyork.csv, Washington.csv & Chicago.csv are used.
