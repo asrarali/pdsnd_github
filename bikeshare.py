@@ -207,9 +207,12 @@ def main():
         
         # Load data based on the selected filters
         df = load_data(city, month, day)
-
+		
+		# Display time-related statistics
         time_stats(df)
-        station_stats(df)
+        
+		# Display station-related statistics
+		station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
         
