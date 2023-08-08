@@ -202,7 +202,10 @@ def display_raw_data(df):
         
 def main():
     while True:
+        # Get user-selected city, month, and day filters
         city, month, day = get_filters()
+        
+        # Load data based on the selected filters
         df = load_data(city, month, day)
 
         time_stats(df)
