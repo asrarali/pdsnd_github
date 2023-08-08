@@ -213,7 +213,11 @@ def main():
         
 		# Display station-related statistics
 		station_stats(df)
+		
+		# Display trip duration-related statistics
         trip_duration_stats(df)
+		
+		# Display user-related statistics
         user_stats(df)
         
         show_data = input('\nWould you like to see raw data? Enter "yes" or "no": ')
